@@ -3,32 +3,137 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meine Website</title>
+
+    <title>Nova Browser</title>
+    <meta name="description" content="Nova Browser – schnell, modern und kostenlos.">
 
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-    <header>
-        <h1>Meine Website</h1>
-        <p>Willkommen auf meiner Website!</p>
-        <button onclick="begrüssen()">Klick mich</button>
-    </header>
+    <nav class="navbar">
+        <div class="logo">NOVA<span>.</span></div>
+
+        <div class="nav-links">
+            <a href="#features">Features</a>
+            <a href="#download">Download</a>
+            <a href="#about">Über Nova</a>
+        </div>
+    </nav>
+
 
     <main>
-        <section>
-            <h2>Über mich</h2>
-            <p>
-                Hier kannst du etwas über dich, dein Projekt
-                oder deine Website schreiben.
-            </p>
+
+        <section class="hero">
+
+            <div class="hero-content">
+
+                <div class="badge">
+                    🚀 NOVA BROWSER
+                </div>
+
+                <h1>
+                    Dein Browser.<br>
+                    <span>Neu gedacht.</span>
+                </h1>
+
+                <p>
+                    Schnell. Modern. Einfach.
+                    Entdecke das Web mit Nova Browser.
+                </p>
+
+                <div class="buttons">
+                    <a class="download-btn" href="downloads/Nova-Browser.exe" download>
+                        Download für Windows
+                    </a>
+
+                    <a class="secondary-btn" href="#features">
+                        Mehr erfahren
+                    </a>
+                </div>
+
+            </div>
+
         </section>
+
+
+        <section id="features" class="section">
+
+            <h2>Warum Nova?</h2>
+
+            <div class="cards">
+
+                <div class="card">
+                    <div class="icon">⚡</div>
+                    <h3>Schnell</h3>
+                    <p>
+                        Entwickelt für ein schnelles und flüssiges
+                        Surferlebnis.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <div class="icon">🔒</div>
+                    <h3>Privat</h3>
+                    <p>
+                        Deine Privatsphäre steht bei Nova im Mittelpunkt.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <div class="icon">✨</div>
+                    <h3>Modern</h3>
+                    <p>
+                        Ein modernes Design für ein modernes Web.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section id="download" class="download-section">
+
+            <h2>Nova Browser herunterladen</h2>
+
+            <p>
+                Lade die aktuelle Windows-Version kostenlos herunter.
+            </p>
+
+            <a class="big-download" href="downloads/Nova-Browser.exe" download>
+                ↓ Nova Browser herunterladen
+            </a>
+
+            <small>
+                Windows · .exe · Kostenlos
+            </small>
+
+        </section>
+
+
+        <section id="about" class="section about">
+
+            <h2>Über Nova Browser</h2>
+
+            <p>
+                Nova Browser ist ein moderner Browser mit dem Ziel,
+                das Surfen schnell, einfach und angenehm zu machen.
+            </p>
+
+        </section>
+
     </main>
 
+
     <footer>
-        <p>© 2026 Meine Website</p>
+        <div class="logo">NOVA<span>.</span></div>
+        <p>© 2026 Nova Browser. Alle Rechte vorbehalten.</p>
     </footer>
 
+
     <script src="script.js"></script>
+
 </body>
 </html>
